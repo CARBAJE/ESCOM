@@ -1,0 +1,101 @@
+,Nombre,Salario,Experiencia,Categoria,clase_K-means
+0,Yadira,2.3,1.5,junior,1
+1,Yael,3.0,1.5,junior,1
+2,Yafa,2.6,1.75,junior,1
+3,Yaira,2.45,2.0,junior,1
+4,Yaiza,2.65,2.25,junior,1
+5,Yakira,2.7,2.0,junior,1
+6,Yalens,2.7,2.25,junior,1
+7,Yalid,3.5,2.0,junior,1
+8,Yalika,2.8,2.5,junior,1
+9,Yalitza,3.1,2.5,junior,1
+10,Yamal,3.5,2.5,semi senior,1
+11,Yamanik,4.0,2.5,semi senior,1
+12,Yamelia,1.8,2.75,junior,1
+13,Yamila,2.5,2.75,junior,1
+14,Yamileth,3.7,2.75,semi senior,1
+15,Yamina,3.9,2.75,semi senior,1
+16,Yanai,4.0,3.0,semi senior,0
+17,Yanara,4.2,3.25,semi senior,0
+18,Yanel,4.9,3.0,senior,0
+19,Yaneli,6.0,3.0,senior,0
+20,Yanela,1.5,3.5,junior,1
+21,Yaneth,2.6,3.5,junior,1
+22,Yanil,3.2,3.5,semi senior,1
+23,Yanina,3.85,3.5,semi senior,0
+24,Yankiray,4.8,3.75,senior,0
+25,Yannel,5.2,3.75,senior,0
+26,Yannely,4.0,4.5,senior,0
+27,Yannick,5.3,4.5,senior,0
+28,Yannis,4.3,4.75,senior,0
+29,Yaquelina,4.7,4.75,senior,0
+30,Yarah,4.6,5.75,senior,2
+31,Yarazeth,5.7,5.75,senior,2
+32,Yarden,5.4,6.0,senior,2
+33,Yarely,6.3,6.25,senior,2
+34,Yaretzi,5.7,6.75,senior,2
+35,Yari,6.8,7.0,senior,2
+36,Yariela,6.35,7.25,senior,2
+37,Yaritza,6.6,7.25,senior,2
+38,Yarmila,5.8,7.5,senior,2
+39,Yashila,6.2,7.5,senior,2
+40,Yashira,2.6,1.15,junior,1
+41,Yasmin,3.3,1.5,junior,1
+42,Yasmina,2.3,1.75,junior,1
+43,Yasna,2.7,2.0,junior,1
+44,Yasu,2.65,2.25,junior,1
+45,Yatzary,2.61,2.0,junior,1
+46,Yatzil,2.8,2.25,junior,1
+47,Yatziri,2.9,2.0,junior,1
+48,Yaxha,3.1,2.5,junior,1
+49,Yedda,2.8,2.5,junior,1
+50,Yei,3.9,2.5,semi senior,1
+51,Yeira,4.2,2.5,semi senior,1
+52,Yelitza,2.0,2.75,junior,1
+53,Yeni,2.6,2.75,junior,1
+54,Yerma,3.3,2.75,semi senior,1
+55,Yeruti,3.5,2.75,semi senior,1
+56,Yesenia,3.8,3.0,semi senior,1
+57,Yessica,4.4,3.25,semi senior,0
+58,Yetlanezi,4.7,3.0,senior,0
+59,Yetzali,5.2,3.0,senior,0
+60,Yetzye,1.7,3.5,junior,1
+61,Yexalen,2.8,3.5,junior,1
+62,Yeva,3.0,3.5,semi senior,1
+63,Yeyetzi,3.95,3.5,semi senior,0
+64,Yilda,4.6,3.5,senior,0
+65,Yildiz,5.3,3.5,senior,0
+66,Yin,4.2,4.5,senior,0
+67,Ylenia,4.9,4.5,senior,0
+68,Yoana,4.0,4.5,senior,0
+69,Yohualli,4.5,4.75,senior,0
+70,Yoi,4.8,5.75,senior,2
+71,Yoki,4.5,5.75,senior,2
+72,Yoko,4.9,6.0,senior,2
+73,Yola,4.1,6.25,senior,2
+74,Yolanda,5.0,6.75,senior,2
+75,Yolima,6.2,7.0,senior,2
+76,Yoliztli,5.8,7.25,senior,2
+77,Yolotzin,6.3,7.25,senior,2
+78,Yon,5.1,7.5,senior,2
+79,Yona,5.9,7.5,senior,2
+80,Yone,5.7,3.0,senior,0
+81,Yordan,5.35,3.0,senior,0
+82,Yordana,1.5,3.5,junior,1
+83,Yoriko,2.9,3.5,junior,1
+84,Yoshiko,3.1,3.5,semi senior,1
+85,Yoshimo,3.65,3.75,semi senior,0
+86,Yovela,4.25,3.5,senior,0
+87,Yua,4.95,3.5,senior,0
+88,Yuana,4.35,4.5,senior,0
+89,Yuga,5.15,4.5,senior,0
+90,Yuji,3.95,4.75,senior,0
+91,Yukie,4.65,4.75,senior,0
+92,Yukiko,4.1,5.75,senior,2
+93,Yoko,4.4,5.75,senior,2
+94,Yulene,4.7,6.0,senior,2
+95,Yulia,5.2,6.0,senior,2
+96,Yuliana,5.3,7.0,senior,2
+97,Yuna,7.2,7.0,senior,2
+98,Yunara,6.3,7.25,senior,2
+99,Yumei,5.3,7.25,senior,2

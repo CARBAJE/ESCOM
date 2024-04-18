@@ -1,0 +1,21 @@
+ CREATE DATABASE EscomEnvents;
+
+CREATE TABLE Event(
+	eventId int PRIMARY-KEY NOT NULL,
+	eventName char(250) NOT NULL,
+	eventDescription char(250) NOT NULL,
+	eventDateCreation date NOT NULL
+);
+CREATE TABLE Assistant(
+	AssistantId int PRIMARY-KEY NOT NULL,
+	AssistantName char(100) NOT NULL,
+	AssistantPatern char(100) NOT NULL,
+	AssistantMAtern char(100),
+	AssistantEmail char(200) NOT NULL
+);
+INSERT INTO Event VALUES (
+	1, 'EventoPrueba', 'Prueba', date
+);
+INSERT INTO Assistant VALUES(
+	1, 'Juan', 'Ignacio', 'Morales', 'abcd@prueba.com'
+);

@@ -1,0 +1,94 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage{hyperref} % Para manejar enlaces
+
+% Configuración de la portada
+\titleformat{\section}[block]{\normalfont\huge\bfseries}{\thesection}{1em}{}
+\geometry{a4paper, margin=1in}
+
+% Definir comandos para información repetitiva
+\newcommand{\logoInstitucion}{logotipo_ipn.png} % Reemplaza con el nombre del archivo de tu logo
+\newcommand{\logoUniversidad}{EscudoESCOM.png} % Reemplaza con el nombre del archivo de tu logo
+\newcommand{\nombreInstituto}{Instituto Politecnico Nacional}
+\newcommand{\facultad}{Escuela Superior de Computo}
+\newcommand{\materia}{Probabilidad y Estadistica}
+\newcommand{\grupo}{4BM2}
+\newcommand{\profesora}{Garcia Blanquel Claudia}
+\newcommand{\periodo}{2024/01}
+\newcommand{\alumno}{Carrillo Barreiro José Emiliano}
+
+\begin{document}
+
+% Portada
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+
+        \includegraphics[width=0.3\textwidth]{\logoInstitucion}
+
+        \vspace{1.5cm}
+
+        \textbf{\LARGE \nombreInstituto} \\
+        \textbf{\Large \facultad} \\
+        \vspace{0.5cm}
+        \textbf{\large Materia: \materia} \\
+        \textbf{\large Grupo: \grupo} \\
+        \vspace{0.5cm}
+        \textbf{\large Profesora: \profesora} \\
+        \textbf{\large Periodo: \periodo} \\
+
+        \vspace{2cm}
+
+        \textbf{\LARGE Informe de Practica 02} \\
+        \vspace{0.5cm}
+        \textbf{\Large Análisis de Datos sobre Trabajadores} \\
+
+        \vfill
+
+        \textbf{\large Realizado por:} \\
+        \textbf{\large \alumno}
+
+        \vspace{1cm}
+
+        \includegraphics[width=0.5\textwidth]{\logoUniversidad}
+
+        \vspace{1cm}
+
+        \textbf{\large \facultad} \\
+        \textbf{\large Fecha: \today}
+
+    \end{center}
+\end{titlepage}
+
+% Índice
+\tableofcontents
+\newpage
+
+% Contenido del experimento
+\section{Descripción del experimento}
+En el marco de la práctica número dos, se inicia una exploración meticulosa de la relación existente entre el salario y la duración del tiempo laboral, expresado en años. Este proceso se inicia mediante la inicialización de la importación de bibliotecas cruciales, tales como Pandas, seguido por un minucioso examen del conjunto de datos. La manipulación de la información se ejecuta a través de herramientas especializadas como Pandas, mientras que la generación de representaciones gráficas de relevancia se lleva a cabo mediante la utilización de Matplotlib.
+\\\\
+La esencia de la investigación se concentra en analizar la conexión entre el importe salarial de los trabajadores y el año correspondiente en el que desempeñaron sus funciones. Se procede con un análisis descriptivo, evaluando medidas intrínsecas a la distribución normal. Este enfoque se implementa en un subconjunto de tres mil setecientas cincuenta y cinco muestras, con el propósito de determinar la relación inherente entre el salario y el periodo laboral.
+
+\section{Hipotesis}
+Las hipótesis son formuladas de la siguiente manera: la \textbf{\textit{hipótesis nula}} plantea la existencia de una correlación entre los años de experiencia y el salario, mientras que la \textit{\textbf{hipótesis alternativa}} sugiere la ausencia de tal relación. Se realiza un análisis de frecuencias empleando herramientas como histogramas salariales, diagramas de caja y gráficos de dispersión.
+
+\section{Estadistica}
+La estadística de la chi-cuadrada se calcula como una medida para evaluar la posibilidad de rechazar la hipótesis nula. En este contexto, se observa que el valor de la chi-cuadrada es significativamente elevado, y el p-valor asociado es inferior a 0.5. Esto conduce al rechazo de la hipótesis nula, favoreciendo la aceptación de la hipótesis alternativa.
+\section{Procedimiento}
+Con el propósito de consolidar de manera rigurosa nuestra conclusión, se realiza un análisis más profundo, generando gráficas de distribución tanto para el salario como para el tiempo de trabajo. Estas gráficas proporcionan una comprensión visual de la densidad de probabilidad en relación con sus respectivos ejes x, representativos del salario y los años de servicio.
+\\\\
+Para obtener una visualización integral, se generan gráficos lineales que representan la distribución del salario en función del tiempo de trabajo. Además, se calculan diagramas de caja para ambas variables, facilitando así la observación detallada de la dispersión de los valores en cada caso.
+
+\section{Conclusión}
+En conclusión, mediante un enfoque exhaustivo que abarca medidas de distribución, análisis de frecuencias y visualizaciones detalladas, se respalda la afirmación de que se confirma la hipótesis alternativa, validando así la existencia de una relación significativa entre el salario y el tiempo de trabajo en el conjunto de datos analizado
+
+
+\end{document}
+

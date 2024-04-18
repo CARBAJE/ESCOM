@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "string.h": "c",
+        "stdio.h": "c",
+        "lista.h": "c",
+        "listac.h": "c",
+        "cola.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
+}

@@ -1,0 +1,6 @@
+
+bienvenida:- writeln('Se realizará la suma de una lista en este programa.') ,
+    suma([1 , 4 , 2 , 5 , 3] , S) ,
+    write('La suma es: ') , writeln(S).
+suma([] , 0).
+suma([H|T], S) :- suma(T,S1) , S is H+S1.

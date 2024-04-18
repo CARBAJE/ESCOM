@@ -1,0 +1,1 @@
+g++ -I C:\VCPKG\vcpkg\installed\x64-windows\include leerPWebs.cpp -o leerPWebs -L C:\VCPKG\vcpkg\installed\x64-windows\lib -lcurl

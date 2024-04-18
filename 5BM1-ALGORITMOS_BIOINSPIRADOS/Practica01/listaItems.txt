@@ -1,0 +1,7 @@
+0 DecoyDetonators 4 10
+1 LovePotion 2 8
+2 ExtendableEars 5 12
+3 SkivingSnackbox 5 6
+4 FeverFudge 2 3
+5 PukingPastilles 1.5 2
+6 NosebleedNougat 1 2

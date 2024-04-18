@@ -1,0 +1,44 @@
+\contentsline {cpplistings}{\numberline {1}PRACTICA01.h}{12}{cpplistings.1}%
+\contentsline {cpplistings}{\numberline {2}mainP01.cpp | \texttt {main}}{13}{cpplistings.2}%
+\contentsline {cpplistings}{\numberline {3}menuP01.cpp | \texttt {menu}}{14}{cpplistings.3}%
+\contentsline {cpplistings}{\numberline {4}menuP01.cpp | \texttt {ingresarOpcion}}{14}{cpplistings.4}%
+\contentsline {cpplistings}{\numberline {5}menuP01.cpp |\texttt {ejecucion}}{15}{cpplistings.5}%
+\contentsline {cpplistings}{\numberline {6}menuP01.cpp |\texttt {medirTiempo}}{15}{cpplistings.6}%
+\contentsline {cpplistings}{\numberline {7}solicitudesP01.cpp |\textit {ingresarPotencia}}{16}{cpplistings.7}%
+\contentsline {cpplistings}{\numberline {8}solicitudesP01.cpp |\texttt {randomPotencia}}{16}{cpplistings.8}%
+\contentsline {cpplistings}{\numberline {9}solicitudesP01.cpp |\texttt {ingresarCaracteres}}{16}{cpplistings.9}%
+\contentsline {cpplistings}{\numberline {10}solicitudesP01.cpp |\texttt {opcionGraficar}}{16}{cpplistings.10}%
+\contentsline {cpplistings}{\numberline {11}P01.h | \texttt {generarCombinaciones}}{17}{cpplistings.11}%
+\contentsline {cpplistings}{\numberline {12}P01.h | \texttt {graficar}}{18}{cpplistings.12}%
+\contentsline {cpplistings}{\numberline {13}graficoMatlab.m | \texttt {Script}}{18}{cpplistings.13}%
+\contentsline {cpplistings}{\numberline {14}PRACTICA03.h}{19}{cpplistings.14}%
+\contentsline {cpplistings}{\numberline {15}mainP03.cpp}{21}{cpplistings.15}%
+\contentsline {cpplistings}{\numberline {16}menuP03.cpp |\texttt {menuP03}}{21}{cpplistings.16}%
+\contentsline {cpplistings}{\numberline {17}menuP03.cpp |\texttt {ingresarOpcionP03}}{22}{cpplistings.17}%
+\contentsline {cpplistings}{\numberline {18}menuP03.cpp |\texttt {ejecucionP03}}{22}{cpplistings.18}%
+\contentsline {cpplistings}{\numberline {19}menuP03.cpp |\texttt {medirTiempoP03}}{23}{cpplistings.19}%
+\contentsline {cpplistings}{\numberline {20}solicitudesP03.cpp |\texttt {solicitarCadenaP03}}{23}{cpplistings.20}%
+\contentsline {cpplistings}{\numberline {21}solicitudesP03.cpp |\texttt {GenerarCadenaP03}}{24}{cpplistings.21}%
+\contentsline {cpplistings}{\numberline {22}solicitudesP03.cpp |\texttt {guardarJugadasEnArchivo}}{25}{cpplistings.22}%
+\contentsline {cpplistings}{\numberline {23}solicitudesP03.cpp |\texttt {opcionAnimarP03}}{26}{cpplistings.23}%
+\contentsline {cpplistings}{\numberline {24}automataP03.cpp |\texttt {crearCasilla}}{26}{cpplistings.24}%
+\contentsline {cpplistings}{\numberline {25}automataP03.cpp |\texttt {crearTablero}}{27}{cpplistings.25}%
+\contentsline {cpplistings}{\numberline {26}jugadasP03.cpp |\texttt {encontrarJugadas}}{28}{cpplistings.26}%
+\contentsline {cpplistings}{\numberline {27}animarP03.cpp |\texttt {animarP03}}{29}{cpplistings.27}%
+\contentsline {cpplistings}{\numberline {28}PRACTICA04.h}{35}{cpplistings.28}%
+\contentsline {cpplistings}{\numberline {29}mainP04.cpp}{36}{cpplistings.29}%
+\contentsline {cpplistings}{\numberline {30}menuP04.cpp |\texttt {menuP04}}{36}{cpplistings.30}%
+\contentsline {cpplistings}{\numberline {31}menuP04.cpp |\texttt {ingresarOpcionP04}}{37}{cpplistings.31}%
+\contentsline {cpplistings}{\numberline {32}menuP04.cpp |\texttt {ejecucionP04}}{38}{cpplistings.32}%
+\contentsline {cpplistings}{\numberline {33}menuP04.cpp |\texttt {medirTiempoP04}}{38}{cpplistings.33}%
+\contentsline {cpplistings}{\numberline {34}solicitudesP04.cpp |\texttt {solicitarCadenaP04}}{38}{cpplistings.34}%
+\contentsline {cpplistings}{\numberline {35}solicitudesP04.cpp |\texttt {leerCSV}}{39}{cpplistings.35}%
+\contentsline {cpplistings}{\numberline {36}solicitudesP04.cpp |\texttt {guardarURL}}{40}{cpplistings.36}%
+\contentsline {cpplistings}{\numberline {37}solicitudesP04.cpp |\texttt {leerArchivo}}{40}{cpplistings.37}%
+\contentsline {cpplistings}{\numberline {38}solicitudesP04.cpp |\texttt {guardarPREnArchivo}}{41}{cpplistings.38}%
+\contentsline {cpplistings}{\numberline {39}solicitudesP04.cpp |\texttt {opcionAnimarP04}}{41}{cpplistings.39}%
+\contentsline {cpplistings}{\numberline {40}automataP04.cpp |\texttt {crearEstadoP04}}{42}{cpplistings.40}%
+\contentsline {cpplistings}{\numberline {41}automataP04.cpp |\texttt {crearAutomataP04}}{42}{cpplistings.41}%
+\contentsline {cpplistings}{\numberline {42}palabrasP04 | \texttt {encontrarPalabrasReservadas}}{43}{cpplistings.42}%
+\contentsline {cpplistings}{\numberline {43}matlabP04.cpp | \texttt {EjecutarMatlabP04}}{43}{cpplistings.43}%
+\contentsline {cpplistings}{\numberline {44}Compendio01.cpp | \texttt {main}}{48}{cpplistings.44}%

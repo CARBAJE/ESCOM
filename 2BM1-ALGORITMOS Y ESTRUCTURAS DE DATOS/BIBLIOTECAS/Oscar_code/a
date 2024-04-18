@@ -1,0 +1,23 @@
+void SelectionSort(Cola *q, int * error, struct Nodo dato){
+    if(colaIsEmpty(Cola q , int* error ) == TRUE){
+        perror("Cola es nula");
+        *error = -2;
+    }
+    else{
+        struct nodo aux1 = q -> cabe;
+        struct nodo aux 2 = aux1 -> nodoSiguiente;
+        int pivote = -1;
+        while(aux1!=NULL){
+            while(aux2!=NULL){
+                if(aux1 -> valor > q -> valor){
+                    pivote = aux1 ->valor;
+                    aux1 -> valor = aux2 ->valor;
+                    aux2 -> valor = pivote;
+                }
+                aux2 = aux2 -> nodoSiguiente;
+            }
+        aux1 = aux1 -> nodoSiguiente;
+        }
+        q-> cabe = aux1 -> cabe;
+    }
+}

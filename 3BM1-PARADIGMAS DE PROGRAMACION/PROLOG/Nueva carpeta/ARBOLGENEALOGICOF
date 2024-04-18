@@ -1,0 +1,34 @@
+es_mujer(Ana_Bermudez).
+es_mujer(Laura_Bermudez).
+es_mujer(Maria_Barredo).
+es_mujer(Dolores_Barreiro).
+es_mujer(Mercedes_Barreiro).
+es_mujer(Teresa_Lopez).
+es_mujer(Teresa_GarciaLimon).
+es_mujer(Adriana_GarciaLimon).
+es_mujer(Ximena_Carrasco).
+es_mujer(Dolores_Carrasco).
+es_mujer(Fernanda_Carrasco).
+es_mujer(Claudia_Mellado).
+es_mujer(Alejandra_Mellado).
+es_mujer(Leticia_Arana).
+es_mujer(Maria_Arana).
+es_mujer(Mar_Arana).
+es_mujer(Matilde_Alfaro).
+es_mujer(Carlota_Alfaro).
+es_mujer(Asuncion_Arana).
+
+%FIN DE HECHOS
+
+%INICIO DE INFERENCIAS
+es_padre:- progenitor(X,Y) , es_hombre(X).
+es_padre:- progenitor(X,Y) , es_mujer(X).
+
+es_hijo:- progenitor(X,Y) , es_hombre(Y).
+es_hija:- progenitor(X,Y) , es_mujer(Y).
+
+es_hermano:- progenitor(X,Y) , progenitor(X,Z) , es_hombre(Z).
+es_hermana:- progenitor(X,Y) , progenitor(X,Z) , es_mujer(Z).
+
+es_tio:- progenitor(X,Y) , progenitor(X,Z) , progenitor(Y,A) , es_hombre(Z).
+es_tia :- progenitor(X,Y) , progenitor(X,Z) , progenitor(Y,A) , es_mujer(Z).

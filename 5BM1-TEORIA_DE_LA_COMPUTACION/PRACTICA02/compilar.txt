@@ -1,0 +1,1 @@
+g++ mainP02.cpp menuP02.cpp automataP02.cpp solicitudesP02.cpp rutasP02.cpp animarP02.cpp -o P02

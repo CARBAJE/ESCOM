@@ -1,0 +1,2 @@
+g++ PRACTICA01.h mainP01.cpp menuP01.cpp solicitudesP01.cpp P01.cpp graficarP01.cpp -I 'C:\Program Files\Python312\include' -I C:\Users\emicr\AppData\Roaming\Python\Python312\site-packages\numpy\core\include -L 'C:\Program Files\Python312\libs' -lpython312
+g++ PRACTICA01.h mainP01.cpp menuP01.cpp solicitudesP01.cpp P01.cpp graficarP01.cpp -o P01

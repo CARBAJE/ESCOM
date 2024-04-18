@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumir API</title>
+    <!-- Incluir la librería Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Productos</h1>
+    
+    <button onclick="obtenerProductos()">Obtener Productos</button>
+    
+    <div id="productos"></div>
+
+    <script>
+        const apiUrl = 'http://localhost:puerto/producto'; // Reemplaza 'puerto' con el puerto correcto de tu servidor
+
+        function obtenerProductos() {
+            axios.get(apiUrl)
+                .then(response => mostrarProductos(response.data))
+                .catch(error => console.error('Error al obtener productos', error));
+        }
+
+        function mostrarProductos(productos) {
+            const productosDiv = document.getElementById('productos');
+            productosDiv.innerHTML = '<h2>Listado de Productos</h2>';
+
+            productos.forEach(producto => {
+                const productoDiv = document.createElement('div');
+                productoDiv.innerHTML = `
+                    <p><strong>ID:</strong> ${producto.idProducto}</p>
+                    <p><strong>Nombre:</strong> ${producto.nombreProducto}</p>
+                    <p><strong>Descripción:</strong> ${producto.descripcionProducto}</p>
+                    <p><strong>Precio:</strong> ${producto.precioProducto}</p>
+                    <p><strong>Existencia:</strong> ${producto.existenciaProducto}</p>
+                    <hr>
+                `;
+                productosDiv.appendChild(productoDiv);
+            });
+        }
+    </script>
+</body>
+</html>

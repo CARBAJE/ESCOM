@@ -1,0 +1,93 @@
+%NUCLEAR
+progenitor(Saul_Carrillo , Jose_Carrillo).
+progenitor(Elsa_Barreiro ,Jose_Carrillo ).
+
+progenitor(Manuel_Barreiro_JR , Elsa_Barreiro).
+progenitor(Luz_GarciaLimon , Elsa_Barreiro).
+progenitor(Manuel_Barreiro_JR , Elsa_Barreiro).
+progenitor(Luz_GarciaLimon , Elsa_Barreiro).
+progenitor(Manuel_Barreiro_JR , Luz_Barreiro).
+progenitor(Luz_GarciaLimon , Luz_Barreiro).
+progenitor(Jorge_Fento, Veronica_Barreiro).
+progenitor(Luz_GarciaLimon , Veronica_Barreiro).
+
+progenitor(Enrique_Pacheco , Enrique_Baarreiro).
+progenitor(Veronica_Barreiro , Enrique_Barreiro).
+
+progenitor(Crispin_Carrillo , Saul_Carrillo).
+progenitor(Guadalupe_Arana , Saul_Carrillo).
+progenitor(Crispin_Carrillo , Patricia_Carrillo).
+progenitor(Guadalupe_Arana , Patricia_Carrillo).
+progenitor(Crispin_Carrillo , Antonio_Carrillo).
+progenitor(Guadalupe_Arana , Antonio_Carrillo).
+
+progenitor(Antonio_Carrillo , Marco_Carrillo).
+progenitor(Leticia_X , Marco_Carrillo).
+progenitor(Antonio_Carrillo , Oscar_Carrillo).
+progenitor(Leticia_X , Oscar_Carrillo).
+
+%BISABUELOS Y SU DESENDENCIA.
+progenitor(Maria_Salterio , Manuel_Barreiro_JR).
+progenitor(Manuel_Barreiro , Manuel_Barreiro_JR).
+progenitor(Maria_Salterio, Ana_Ilia_Barreiro).
+progenitor(Manuel_Barreiro , Ana_Ilia_Barreiro).
+progenitor(Maria_Salterio, Ana_Ilia_Barreiro).
+progenitor(Manuel_Barreiro , Ana_Ilia_Barreiro).
+progenitor(Maria_Salterio, Olga_Barreiro).
+progenitor(Manuel_Barreiro , Olga_Barreiro).
+
+prgenitor(Fernando_Bermudez , Fernando_JR_Bermudez).
+progenitor(Olga_Barreiro , Fernando_JR_Bermudez).
+prgenitor(Fernando_Bermudez , Eduardo_Bermudez).
+progenitor(Olga_Barreiro , Eduardo_Bermudez).
+prgenitor(Fernando_Bermudez , Ana_Bermudez).
+progenitor(Olga_Barreiro , Ana_Bermudez).
+prgenitor(Fernando_Bermudez , Laura_Bermudez).
+progenitor(Olga_Barreiro , Laura_Bermudez).
+
+progenitor(Alfonso_GarciaLimon , Luz_GarciaLimon).
+progenitor(Maria_Barredo, Luz_GarciaLimon).
+progenitor(Alfonso_GarciaLimon , Dolores_GarciaLimon).
+progenitor(Maria_Barredo, Dolores_GarciaLimon).
+progenitor(Alfonso_GarciaLimon , Mercedes_GarciaLimon).
+progenitor(Maria_Barredo , Mecedes_GarciaLimon ).
+progenitor(Alfonso_GarciaLimon , Alfonso_JR_GarciaLimon).
+progenitor(Maria_Barredo , Alfonso_JR_GarciaLimon ).
+
+progenitor(Alfonso_JR_GarciaLimon , Teresa_GarciaLimon).
+progenitor(Teresa_Lopez, Teresa_GarciaLimon).
+progenitor(Alfonso_JR_GarciaLimon , Adriana_GarciaLimon).
+progenitor(Teresa_Lopez, Adriana_GarciaLimon).
+progenitor(Alfonso_JR_GarciaLimon , Alfonso_JR_JR_GarciaLimon).
+progenitor(Teresa_Lopez, Alfonso_JR_JR_GarciaLimon).
+
+progenitor(Gustavo_Carrasco , Ximena_Carrasco).
+progenitor(Dolores_GarciaLimon, Ximena_Carrasco).
+progenitor(Gustavo_Carrasco , Doloeres_Carrasco).
+progenitor(Dolores_GarciaLimon, Dolores_Carrasco).
+progenitor(Gustavo_Carrasco , Fernanda_Carrasco).
+progenitor(Dolores_GarciaLimon, Fernanda_Carrasco).
+
+progenitor(Carlos_Mellado , Carlos_JR_Mellado).
+progenitor(Mercedes_GarciaLimon , Carlos_JR_Mellado).
+progenitor(Carlos_Mellado , Claudia_Mellado).
+progenitor(Mercedes_GarciaLimon , Claudia_Mellado).
+progenitor(Carlos_Mellado , Alejandra_Mellado).
+progenitor(Mercedes_GarciaLimon , Alejandra_Mellado).
+
+progenitor(Guadalupe_SR_Arana , Guadalupe_Arana).
+progenitor(Francisca_Gomez , Guadalupe_Arana).
+progenitor(Guadalupe_SR_Arana , Artemio_Arana).
+progenitor(Francisca_Gomez , Artemio_Arana).
+progenitor(Guadalupe_SR_Arana , Leticia_Arana).
+progenitor(Francisca_Gomez , Leticia_Arana).
+
+%TATARABUELOS
+progenitor(Manuel_SR_Barreiro , Manuel_Barreiro).
+progenitor(Matilde_Alfaro , Manuel_Barreiro).
+
+progenitor(James_Salterio , Maria_Salterio).
+progenitor(Carlota_Alfaro , Maria_Salterio).
+
+progenitor(Cliotilde_Arana , Guadalupe_SR_Arana).
+progenitor(Asuncion_Arana , Guadalupe_SR_Arana).

@@ -1,0 +1,19 @@
+--ESTE ES UN COMENTARIO
+--COMPUERTA OR
+libary IEEE;
+	use IEEE.STD_LOGIC.1164.ALL;
+	use IEEE.STD_LOGIC_ARITH.ALL;
+	use IEEE.STF_LOGIC_UNSIGNED.ALL;
+	
+	entity compuerta_or is
+		Port(   entrada1: in STD_LOGIC;
+			entrada2: in STD_LOGIC;
+			salida : out STD_LOGIC;)
+	end compuerta_or;
+
+	architecture Behavioral of compuerta_or is
+	begin
+
+	salida <= entrada1 or entrada2;
+
+	end Behavioral;

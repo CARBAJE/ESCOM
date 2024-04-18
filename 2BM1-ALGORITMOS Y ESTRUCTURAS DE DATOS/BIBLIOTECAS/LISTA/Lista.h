@@ -1,0 +1,41 @@
+//LISTA DINAMICA
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <stdint.h>
+/*
+                TABLA DE ERRORES
+        VARIABLE    ESTADO  DESCRIPCIÓN
+        error       -1      NODO NULO
+        error       -2      LISTA NULA
+        error       -3      LISTA VACIA
+        error       0       SIN ERROR
+*/
+
+typedef int Dato;
+
+struct Nodo{
+    Dato dato;
+    int posicion;
+    struct Nodo* nodoSiguiente;
+};
+
+typedef struct Nodo** Lista;
+
+void CrearLista(int*);
+Dato IngresarDatos(int , int* , int*);
+void MenuLista(Lista , int , int*);
+void InsertarIzquierda(Lista , Dato ,  int*);
+void InsertarDerecha(Lista , Dato , int*);
+void InsertarPosicion(Lista , Dato , int , int*);
+Dato ExtraerIzquierda(Lista , int*);
+Dato ExtraerDerecha(Lista , int*);
+Dato ExtraerPosicion(Lista , int , int*);
+bool IsEmpty(Lista , int*);
+void UpdatePosicion(struct Nodo*);
+void ResetPosicion(struct Nodo*);
+int RecorrerLista(struct Nodo*);
+void ImprimirLista(Lista , int*);
+void VaciarLista(Lista , int*);
+void DestruirLista(Lista , int*);
+void CopiarLIsta(Lista , int*);

@@ -1,0 +1,59 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Resumen.}{5}{section.1}%
+\contentsline {section}{\numberline {2}Introducción.}{5}{section.2}%
+\contentsline {section}{\numberline {3}Marco Teorico.}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Teoría de Automátas.}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Alfabetos.}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Cadena de caracteres.}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Cadena vacio.}{7}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Longitud de cadenas.}{7}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Potencias de un alfabeto.}{7}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Concatenacion de cadenas.}{7}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Lenguajes.}{7}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Autómatas Finitos No Deterministas (AFN)}{7}{subsection.3.9}%
+\contentsline {subsubsection}{\numberline {3.9.1}Aplicaciones de los AFN}{8}{subsubsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.10}Equivalencia de autómatas finitos deterministas y no deterministas}{8}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}AFD para reconocer un conjunto de palabras clave}{8}{subsection.3.11}%
+\contentsline {section}{\numberline {4}Desarrollo}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Especificaciones}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Lenguajes}{10}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}C++}{10}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Matlab}{11}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}Librerias}{11}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Implementación}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Practica 01: Universo de Cadenas Binarias.}{12}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Libreria}{12}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Main}{13}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}Menu}{13}{subsubsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.4}Solicitudes}{15}{subsubsection.5.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.5}Logica del problema}{17}{subsubsection.5.1.5}%
+\contentsline {subsubsection}{\numberline {5.1.6}Llamada a graficar}{18}{subsubsection.5.1.6}%
+\contentsline {subsubsection}{\numberline {5.1.7}Graficar}{18}{subsubsection.5.1.7}%
+\contentsline {subsection}{\numberline {5.2}Practica03: Tablero de Ajedrez}{19}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}\textit {PRACTICA03.h}}{19}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}\textit {mainP03.cpp}}{21}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}\textit {menuP03.cpp}}{21}{subsubsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.4}\textit {solicitudesP03.cpp}}{23}{subsubsection.5.2.4}%
+\contentsline {subsubsection}{\numberline {5.2.5}\textit {automataP03.cpp}}{26}{subsubsection.5.2.5}%
+\contentsline {subsubsection}{\numberline {5.2.6}\textit {jugadasP03.cpp}}{27}{subsubsection.5.2.6}%
+\contentsline {subsubsection}{\numberline {5.2.7}\textit {animarP03.cpp}}{28}{subsubsection.5.2.7}%
+\contentsline {subsubsection}{\numberline {5.2.8}\textit {leercsv.m}}{29}{subsubsection.5.2.8}%
+\contentsline {subsubsection}{\numberline {5.2.9}\textit {GraficoAutomata.m}}{30}{subsubsection.5.2.9}%
+\contentsline {subsubsection}{\numberline {5.2.10}\textit {animacionP03.m}}{31}{subsubsection.5.2.10}%
+\contentsline {subsection}{\numberline {5.3}Practica04: Buscador de palabras.}{34}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}\textit {Conversion de NFA a DFA}}{34}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}\textit {PRACTICA04.h}}{35}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}\textit {mainP04.cpp}}{36}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.4}\textit {menuP04.cpp}}{36}{subsubsection.5.3.4}%
+\contentsline {subsubsection}{\numberline {5.3.5}\textit {solicitudesP04.cpp}}{38}{subsubsection.5.3.5}%
+\contentsline {subsubsection}{\numberline {5.3.6}\textit {automataP04.cpp}}{42}{subsubsection.5.3.6}%
+\contentsline {subsubsection}{\numberline {5.3.7}\textit {palabrasP04.cpp}}{43}{subsubsection.5.3.7}%
+\contentsline {subsubsection}{\numberline {5.3.8}\textit {matlabP04.cpp}}{43}{subsubsection.5.3.8}%
+\contentsline {subsubsection}{\numberline {5.3.9}\textit {leerPagWebs.m}}{44}{subsubsection.5.3.9}%
+\contentsline {subsubsection}{\numberline {5.3.10}\textit {GraficoAutomata.m}}{45}{subsubsection.5.3.10}%
+\contentsline {subsection}{\numberline {5.4}Compendio}{47}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Resultados}{49}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Resultados: Universo de cadenas binarias.}{49}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Resultados: Tablero de ajedrez}{50}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Resultados: Buscador de palabras}{52}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Conclusiones}{55}{section.7}%

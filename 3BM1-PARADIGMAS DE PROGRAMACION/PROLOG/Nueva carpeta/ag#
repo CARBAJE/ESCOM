@@ -1,0 +1,193 @@
+%NUCLEAR
+progenitor(Saul_Carrillo , Jose_Carrillo).
+progenitor(Elsa_Barreiro ,Jose_Carrillo ).
+
+progenitor(Manuel_JR_Barreiro , Elsa_Barreiro).
+progenitor(Luz_GarciaLimon , Elsa_Barreiro).
+progenitor(Manuel_JR_Barreiro , Elsa_Barreiro).
+progenitor(Luz_GarciaLimon , Elsa_Barreiro).
+progenitor(Manuel_JR_Barreiro , Luz_Barreiro).
+progenitor(Luz_GarciaLimon , Luz_Barreiro).
+progenitor(Jorge_Fento, Veronica_Barreiro).
+progenitor(Luz_GarciaLimon , Veronica_Barreiro).
+progenitor(Manuel_JR_Barreiro , Mauricio_Barreiro).
+progenitor(XYZ, Mauricio_Barreiro).
+
+progenitor(Enrique_Pacheco , Enrique_Baarreiro).
+progenitor(Veronica_Barreiro , Enrique_Barreiro).
+
+progenitor(Crispin_Carrillo , Saul_Carrillo).
+progenitor(Guadalupe_Arana , Saul_Carrillo).
+progenitor(Crispin_Carrillo , Patricia_Carrillo).
+progenitor(Guadalupe_Arana , Patricia_Carrillo).
+progenitor(Crispin_Carrillo , Antonio_Carrillo).
+progenitor(Guadalupe_Arana , Antonio_Carrillo).
+
+progenitor(Antonio_Carrillo , Marco_Carrillo).
+progenitor(Leticia_X , Marco_Carrillo).
+progenitor(Antonio_Carrillo , Oscar_Carrillo).
+progenitor(Leticia_X , Oscar_Carrillo).
+
+%BISABUELOS Y SU DESENDENCIA.
+progenitor(Maria_Salterio , Manuel_JR_Barreiro).
+progenitor(Manuel_Barreiro , Manuel_JR_Barreiro).
+progenitor(Maria_Salterio, Ana_Ilia_Barreiro).
+progenitor(Manuel_Barreiro , Ana_Ilia_Barreiro).
+progenitor(Maria_Salterio, Ana_Ilia_Barreiro).
+progenitor(Manuel_Barreiro , Ana_Ilia_Barreiro).
+progenitor(Maria_Salterio, Olga_Barreiro).
+progenitor(Manuel_Barreiro , Olga_Barreiro).
+
+progenitor(Fernando_Bermudez , Fernando_JR_Bermudez).
+progenitor(Olga_Barreiro , Fernando_JR_Bermudez).
+progenitor(Fernando_Bermudez , Eduardo_Bermudez).
+progenitor(Olga_Barreiro , Eduardo_Bermudez).
+progenitor(Fernando_Bermudez , Ana_Bermudez).
+progenitor(Olga_Barreiro , Ana_Bermudez).
+progenitor(Fernando_Bermudez , Laura_Bermudez).
+progenitor(Olga_Barreiro , Laura_Bermudez).
+
+progenitor(Alfonso_GarciaLimon , Luz_GarciaLimon).
+progenitor(Maria_Barredo, Luz_GarciaLimon).
+progenitor(Alfonso_GarciaLimon , Dolores_GarciaLimon).
+progenitor(Maria_Barredo, Dolores_GarciaLimon).
+progenitor(Alfonso_GarciaLimon , Mercedes_GarciaLimon).
+progenitor(Maria_Barredo , Mecedes_GarciaLimon ).
+progenitor(Alfonso_GarciaLimon , Alfonso_JR_GarciaLimon).
+progenitor(Maria_Barredo , Alfonso_JR_GarciaLimon ).
+
+progenitor(Alfonso_JR_GarciaLimon , Teresa_GarciaLimon).
+progenitor(Teresa_Lopez, Teresa_GarciaLimon).
+progenitor(Alfonso_JR_GarciaLimon , Adriana_GarciaLimon).
+progenitor(Teresa_Lopez, Adriana_GarciaLimon).
+progenitor(Alfonso_JR_GarciaLimon , Alfonso_JR_JR_GarciaLimon).
+progenitor(Teresa_Lopez, Alfonso_JR_JR_GarciaLimon).
+
+progenitor(Gustavo_Carrasco , Ximena_Carrasco).
+progenitor(Dolores_GarciaLimon, Ximena_Carrasco).
+progenitor(Gustavo_Carrasco , Doloeres_Carrasco).
+progenitor(Dolores_GarciaLimon, Dolores_Carrasco).
+progenitor(Gustavo_Carrasco , Fernanda_Carrasco).
+progenitor(Dolores_GarciaLimon, Fernanda_Carrasco).
+
+progenitor(Carlos_Mellado , Carlos_JR_Mellado).
+progenitor(Mercedes_GarciaLimon , Carlos_JR_Mellado).
+progenitor(Carlos_Mellado , Claudia_Mellado).
+progenitor(Mercedes_GarciaLimon , Claudia_Mellado).
+progenitor(Carlos_Mellado , Alejandra_Mellado).
+progenitor(Mercedes_GarciaLimon , Alejandra_Mellado).
+
+progenitor(Guadalupe_SR_Arana , Guadalupe_Arana).
+progenitor(Francisca_Gomez , Guadalupe_Arana).
+progenitor(Guadalupe_SR_Arana , Artemio_Arana).
+progenitor(Francisca_Gomez , Artemio_Arana).
+progenitor(Guadalupe_SR_Arana , Leticia_Arana).
+progenitor(Francisca_Gomez , Leticia_Arana).
+progenitor(Guadalupe_SR_Arana , Maria_Arana).
+progenitor(Francisca_Gomez , Maria_Arana).
+progenitor(Guadalupe_SR_Arana , Mar_Arana).
+progenitor(Francisca_Gomez , Mar_Arana).
+
+%TATARABUELOS
+progenitor(Manuel_SR_Barreiro , Manuel_Barreiro).
+progenitor(Matilde_Alfaro , Manuel_Barreiro).
+
+progenitor(James_Salterio , Maria_Salterio).
+progenitor(Carlota_Alfaro , Maria_Salterio).
+
+progenitor(Cliotilde_Arana , Guadalupe_SR_Arana).
+progenitor(Asuncion_Arana , Guadalupe_SR_Arana).
+
+%hombres
+es_hombre(Jose_carrillo).
+es_hombre(Saul_Carrillo).
+es_hombre(Jorge_Fento).
+es_hombre(Mauricio_JR_Barreiro).
+es_hombre(Enrique_Pacheco).
+es_hombre(Enrique_Barreiro).
+es_hombre(Crispin_Carrillo).
+es_hombre(Antonio_Carrillo).
+es_hombre(Marco_Carrillo).
+es_hombre(Oscar_Carrillo).
+es_hombre(Mauricio_Barreiro).
+es_hombre(Fernando_Bermudez).
+es_hombre(Fernando_JR_Bermudez).
+es_hombre(Eduardo_Bermudez).
+es_hombre(Alfonso_GarciaLimon).
+es_hombre(Alfonso_JR_GarciaLimon).
+es_hombre(Alfonso_JR_JR_GarciaLimon).
+es_hombre(Carlos_Mellado).
+es_hombre(Carlos_JR_Mellado).
+es_hombre(Gustavo_Carrasco).
+es_hombre(Guadalupe_SR_Arana).
+es_hombre(Artemio_Arana).
+es_hombre(Manuel_SR_Barreiro).
+es_hombre(James_Salterio).
+es_hombre(Cliotilde_Arana).
+
+%MUJERES
+es_mujer(Elsa_Barreiro).
+es_mujer(Luz_GarciaLimon).
+es_mujer(Luz_Barreiro).
+es_mujer(Veronica_Barreiro).
+es_mujer(XYZ).
+es_mujer(Guadalupe_Arana).
+es_mujer(Patricia_Carrillo).
+es_mujer(Leticia_X).
+es_mujer(Maria_Salterio).
+es_mujer(Ana_Ilia_Barreiro).
+es_mujer(Olga_Barreiro).
+es_mujer(Ana_Bermudez).
+es_mujer(Laura_Bermudez).
+es_mujer(Maria_Barredo).
+es_mujer(Dolores_Barreiro).
+es_mujer(Mercedes_Barreiro).
+es_mujer(Teresa_Lopez).
+es_mujer(Teresa_GarciaLimon).
+es_mujer(Adriana_GarciaLimon).
+es_mujer(Ximena_Carrasco).
+es_mujer(Dolores_Carrasco).
+es_mujer(Fernanda_Carrasco).
+es_mujer(Claudia_Mellado).
+es_mujer(Alejandra_Mellado).
+es_mujer(Leticia_Arana).
+es_mujer(Maria_Arana).
+es_mujer(Mar_Arana).
+es_mujer(Matilde_Alfaro).
+es_mujer(Carlota_Alfaro).
+es_mujer(Asuncion_Arana).
+
+%FIN DE HECHOS
+
+%INICIO DE INFERENCIAS
+es_padre(X,Y):- progenitor(X,Y) , es_hombre(X).
+es_madre(X,Y):- progenitor(X,Y) , es_mujer(X).
+
+es_hijo(Y,X):- progenitor(X,Y) , es_hombre(Y).
+es_hija(Y,X):- progenitor(X,Y) , es_mujer(Y).
+
+es_hermano(Z,Y):- progenitor(X,Y) , progenitor(X,Z) , es_hombre(Z).
+es_hermana(Z,Y):- progenitor(X,Y) , progenitor(X,Z) , es_mujer(Z).
+
+es_tio(Z,A):- progenitor(X,Y) , progenitor(X,Z) , progenitor(Y,A) , es_hombre(Z).
+es_tia() :- progenitor(X,Y) , progenitor(X,Z) , progenitor(Y,A) , es_mujer(Z).
+
+es_abuelo:- progenitor(X,Y) , progenitor(Y,Z) , es_hombre(X).
+es_abuela:- progenitor(X,Y) , progenitor(Y,Z) , es_mujer(X).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+ g++ mainP04.cpp menuP04.cpp automataP04.cpp solicitudesP04.cpp matlabP04.cpp palabrasP04.cpp -o P04

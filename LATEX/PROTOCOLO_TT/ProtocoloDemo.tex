@@ -1,0 +1,186 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[fleqn]{mathtools}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{nccmath}
+\usepackage{multicol}
+\usepackage{listings}
+\usepackage{tasks}
+\usepackage{color}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{makecell}
+\usepackage{caption}
+\usepackage[parfill]{parskip}
+\usepackage{lipsum}
+\usepackage{enumitem}
+\usepackage{hyperref}% Para manejar enlaces
+\usepackage{fancyhdr}
+\usepackage{adjustbox}
+\usepackage{amsmath}
+\usepackage{tocloft}
+\usepackage{soul}
+\usepackage{newtxtext} % Para la fuente Times New Roman
+\usepackage{newtxmath} % Para la fuente matemática Times New Roman
+
+%Definicion de colores
+\definecolor{colorIPN}{rgb}{0.5, 0.0,0.13}
+\definecolor{colorESCOM}{rgb}{0.0, 0.5,1.0}
+\definecolor{myorange}{RGB}{255, 204, 153}
+\graphicspath{ {imagenes/} }
+%Configuraciones extras de colores
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codered}{rgb}{0.6,0,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+% Configuración de la portada
+\titleformat{\section}[block]{\normalfont\huge\bfseries}{\thesection}{1em}{}
+\geometry{a4paper, margin=1in}
+
+% Definir comandos para información repetitiva
+\newcommand{\logoInstitucion}{logotipo_ipn.png} % Reemplaza con el nombre del archivo de tu logo
+\newcommand{\logoUniversidad}{EscudoESCOM.png} % Reemplaza con el nombre del archivo de tu logo
+\newcommand{\nombreInstituto}{Instituto Politecnico Nacional}
+\newcommand{\facultad}{Escuela Superior de Computo}
+\newcommand{\materia}{Teoría de la Computación}
+\newcommand{\grupo}{5BM1}
+\newcommand{\profesora}{Genaro Juarez Martínez}
+\newcommand{\periodo}{2024/02}
+\newcommand{\Integrante}{Carrillo Barreiro José Emiliano}
+\newcommand{\IntegranteDos}{Escobar Montoya Patricio}
+\newcommand{\email}{carrillobarjosee@gmail.com}
+
+% Definir nuevas listas para información repetitiva
+\newlist{bracketed}{enumerate}{1}
+\setlist[bracketed,1]{label={[{\arabic*}]},left=0pt}
+
+% Configuración de lstlisting para Python
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{codepurple},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codered},
+    basicstyle=\ttfamily\small,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+
+\lstdefinestyle{custompython}{
+    language=Python,
+    basicstyle=\small\ttfamily,
+    keywordstyle=\color{blue},
+    stringstyle=\color{green},
+    commentstyle=\color{red},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    stepnumber=1,
+    numbersep=5pt,
+    backgroundcolor=\color{white},
+    frame=single,
+    captionpos=b,
+    breaklines=true,
+    breakatwhitespace=false,
+    showstringspaces=false,
+    morekeywords={import,plt,np,ws,y,gradient}
+}
+
+\lstdefinestyle{cppstyle}{
+    language=C++,
+    basicstyle=\small\ttfamily,
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!40!black},
+    stringstyle=\color{orange},
+    showstringspaces=false,
+    breaklines=true,
+    breakatwhitespace=true,
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=5pt,
+    frame=single,
+    captionpos=b,
+    backgroundcolor=\color{gray!5},
+    xleftmargin=0.5cm,
+    xrightmargin=0.5cm
+}
+
+% Definición de estilo para MATLAB
+\lstdefinestyle{matlabstyle}{
+    language=Matlab,
+    basicstyle=\small\ttfamily,
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!40!black},
+    stringstyle=\color{purple!50!blue!50!white},
+    showstringspaces=false,
+    breaklines=true,
+    breakatwhitespace=true,
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=5pt,
+    frame=single,
+    captionpos=b,
+    backgroundcolor=\color{gray!5},
+    xleftmargin=0.5cm,
+    xrightmargin=0.5cm
+}
+
+% Personalización del índice de listados
+\newcommand{\listcppname}{Índice de Listados de C++}
+\newcommand{\listmatlabname}{Índice de Listados de MATLAB}
+\newlistof{cpplistings}{lolcpp}{\listcppname}
+\newlistof{matlablistings}{lolmatlab}{\listmatlabname}
+
+% Configuración para los listados de C++
+\lstset{style=cppstyle}
+\newcommand{\cpplisting}[1]{%
+    \refstepcounter{cpplistings}%
+    \addcontentsline{lolcpp}{cpplistings}{\protect\numberline{\thecpplistings}#1}\par}
+
+% Configuración para los listados de MATLAB
+\lstset{style=matlabstyle}
+\newcommand{\matlablisting}[1]{%
+    \refstepcounter{matlablistings}%
+    \addcontentsline{lolmatlab}{matlablistings}{\protect\numberline{\thematlablistings}#1}\par}
+
+\begin{document}
+
+    \begin{center}
+        \fontsize{14}{10}\selectfont\textbf{Entorno experto en campos gravitacionales iterativos aplicado a sistemas de entretenimiento interactivos.}\\
+        \fontsize{12}{10}\selectfont\textbf{\textit{No.\@ del Trabajo Terminal}}\\
+        \fontsize{12}{10}\selectfont\textit{Integrantes: *\Integrante, \IntegranteDos}\\
+        \fontsize{12}{10}\selectfont\textit{Directores:}\\
+        \fontsize{12}{10}\selectfont\textit{email: \email}\\
+    \end{center}
+
+    \begin{abstract}\fontsize{10}{10}
+        Durante los ultimos años la industria del entretenimiento virtual ha visto un estancamineto en la propuestas de atracción visual para
+        los consumidores. Esto provoca una surgiente necesidad de brindar experiencias que desarrollen en el usuario una atracción más alla de lo
+        visual. La elaboracion de entornos que aprovechen las propiedades gravitacionales inherentes en los cuerpos a traves de algoritmos, como
+        \textit{Barnes-Hut} y \textit{Particles-Mesh}, son un campo escazamente explorado, dada la complejidad del \textit{problema de los n-cuerpos} de Newton. Nuestra
+        propuesta es modelar entornos simulados que maximizen la cantidad de campos gravitacionales iterativos interactivos en sistemas de recreación virtual
+        estadares.
+    \end{abstract}
+
+\end{document}

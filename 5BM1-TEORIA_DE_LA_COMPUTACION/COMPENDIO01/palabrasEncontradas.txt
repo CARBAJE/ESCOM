@@ -1,0 +1,7 @@
+Se encontraron las siguientes palabras reservadas (junto sus coordenadas) dentro de la URL ''
+Palabra: crimen	Coordenada en X: 287	Coordenada en Y: 11
+Palabra: crimen	Coordenada en X: 63	Coordenada en Y: 29
+Palabra: crimen	Coordenada en X: 52	Coordenada en Y: 33
+Palabra: crimen	Coordenada en X: 209	Coordenada en Y: 35
+Palabra: crimen	Coordenada en X: 32	Coordenada en Y: 41
+Palabra: crimen”,	Coordenada en X: 127	Coordenada en Y: 41

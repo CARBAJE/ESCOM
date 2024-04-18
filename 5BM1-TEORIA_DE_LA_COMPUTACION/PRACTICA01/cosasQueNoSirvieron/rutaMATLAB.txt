@@ -1,0 +1,1 @@
+MATLAB -r "run('C:\Users\emicr\Documents\CODIGOS_FUENTES\5BM1-TEORIA_DE_LA_COMPUTACION\PRACTICA01\graficoMatlab.m')"

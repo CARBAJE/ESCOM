@@ -1,0 +1,1 @@
+g++ mainP03.cpp menuP03.cpp solicitudesP03.cpp automataP03.cpp jugadasP03.cpp animarP03.cpp -o P03
